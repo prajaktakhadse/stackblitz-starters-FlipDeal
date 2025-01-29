@@ -306,7 +306,7 @@ function filterByOs(os){
   });
 
 
-  ////Endpoint 8: Filter the products based on the “Price” option. Write an Express code snippet to filter products based on the selected price option.
+//Endpoint 8: Filter the products based on the “Price” option. Write an Express code snippet to filter products based on the selected price option.
   function filterByPrice(price){
     return products.filter(product => product.price <= price);
   }
